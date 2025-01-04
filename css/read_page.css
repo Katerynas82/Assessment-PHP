@@ -1,0 +1,113 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  background: rgba(161, 74, 74, 0.57);
+  color: rgba(253, 232, 192, 1);
+}
+
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+h3 {
+  font-family: "Inika", serif;
+  font-size: 25px;
+  font-weight: 700;
+}
+p {
+  font-family: "Inika", serif;
+  font-size: 15px;
+  font-weight: 700;
+  color: black;
+}
+p,
+h1,
+h3 {
+  line-height: 1.5;
+  text-align: center;
+  padding: 0;
+}
+.footer-title {
+  padding: 10px;
+  color: rgba(253, 232, 192, 1);
+}
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  margin: auto;
+  color: rgba(253, 232, 192, 1);
+  font-family: "Instrument Serif", serif;
+  font-size: 16px;
+  font-weight: 400;
+  padding-top: 20px;
+}
+.header-list {
+  display: flex;
+  gap: 30px;
+  padding-top: 15px;
+  padding-bottom: 10px;
+}
+
+.navigation {
+  font-family: "Inter", serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(253, 232, 192, 1);
+}
+.navigation:hover,
+:focus {
+  background: rgba(253, 232, 192, 1);
+  color: rgba(161, 74, 74, 0.7);
+}
+.book-image {
+  width: 350px;
+  height: 550px;
+  padding-bottom: 10px;
+}
+.text-cont {
+  padding: 10px 40px;
+}
+
+.book-title {
+  font-family: "Lovers Quarrel", serif;
+  font-size: 70px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+.book-item {
+  font-family: "Inter", serif;
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 1);
+}
+.nav-btn {
+  background: rgba(161, 74, 74, 0.7);
+  font-family: "Jacques Francois", serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(253, 232, 192, 1);
+  opacity: 0px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.nav-btn:hover,
+:focus {
+  background: rgba(253, 232, 192, 1);
+  color: rgba(161, 74, 74, 0.7);
+}
+.bg {
+  background-image: url("../images/wooden-textures-background.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+}

@@ -1,0 +1,139 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  background: rgba(161, 74, 74, 0.57);
+  color: rgba(253, 232, 192, 1);
+}
+ul {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+h1 {
+  font-family: "Jacques Francois Shadow", serif;
+  font-weight: 400;
+  font-style: normal;
+  font-size: 52px;
+  line-height: 75px;
+  color: black;
+}
+
+p,
+h1,
+h3 {
+  line-height: 1.5;
+  text-align: center;
+  padding: 0;
+}
+
+.footer-title {
+  padding: 10px;
+  color: rgba(253, 232, 192, 1);
+}
+.reg-title {
+  font-style: normal;
+  font-size: 30px;
+  text-align: center;
+}
+
+.container {
+  display: flex;
+  justify-content: space-between;
+  width: 1280px;
+  margin: auto;
+  color: rgba(253, 232, 192, 1);
+  padding-top: 20px;
+  font-family: "Instrument Serif", serif;
+  font-size: 16px;
+  font-weight: 400;
+}
+.header-list {
+  display: flex;
+  gap: 30px;
+  padding-top: 20px;
+  padding-bottom: 10px;
+}
+
+.navigation {
+  font-family: 'Inter', serif;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(253, 232, 192, 1);
+}
+.navigation:hover,
+:focus {
+  background: rgba(253, 232, 192, 1);
+  color: rgba(161, 74, 74, 0.7);
+}
+.main-page {
+  background-image: url("../images/textbook.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  max-width: 1440px;
+  padding: 0 15px;
+  margin-left: auto;
+  margin-right: auto;
+  height: 600px;
+}
+.nav-btn {
+  background: rgba(161, 74, 74, 0.7);
+  font-family: "Jacques Francois", serif;
+  font-style: normal;
+  font-size: 16px;
+  font-weight: 400;
+  color: rgba(253, 232, 192, 1);
+  opacity: 0px;
+  padding: 10px 30px;
+  cursor: pointer;
+}
+.nav-btn:hover,
+:focus {
+  background: rgba(253, 232, 192, 1);
+  color: rgba(161, 74, 74, 0.7);
+}
+
+.form {
+  width: 35vw;
+  padding-top: 90px;
+  padding-left: 15px;
+}
+.main-list {
+  display: flex;
+  justify-content: space-evenly;
+  padding: 90px 15px;
+}
+button {
+  border: none;
+}
+.input {
+  padding: 10px;
+  width: 90%;
+}
+.input-item {
+  padding: 10px;
+}
+.small-title{
+  
+ font-family: "Jacques Francois Shadow", serif;
+  font-size: 32px;
+  font-weight: 400;
+  font-style: normal;
+   color: rgba(253, 232, 192, 1);
+  text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.75);
+
+}
+.small-title:hover,:focus{
+color: rgba(238, 189, 189, 0.7);
+
+}
+.main-title{
+  font-family: "Inika", serif;
+  color: rgba(253, 232, 192, 1);
+  
+}
